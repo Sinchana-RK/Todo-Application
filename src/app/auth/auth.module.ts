@@ -6,13 +6,27 @@ import { SignupComponent } from './signup/signup.component';
 import { AuthcComponent } from './authc/authc.component';
 import {AuthRoutingModule} from './auth-routing.module';
 
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
+
 
 
 @NgModule({
   declarations: [LoginComponent, SigninComponent, SignupComponent, AuthcComponent],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    FlexLayoutModule,
+    MatCheckboxModule
   ]
 })
 export class AuthModule { }
