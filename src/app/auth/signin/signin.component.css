@@ -1,0 +1,69 @@
+
+.signin-page{
+    top:10px;
+    margin:0;
+    padding:5px;
+   width:100%;
+  height:100%;
+   background-color: #1c437e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+    display:block;
+    overflow:hidden;
+
+}
+
+mat-card {
+    width: 40%;
+    margin: 10% auto;
+    border-radius:8px;
+    height: 330px;
+    background-color: transparent;
+    border-style:hidden;
+ }
+
+ mat-form-field{
+     display:block;
+     width:70%;
+     margin:auto;
+     border:white;
+ }
+ mat-label{
+     color:white;
+ }
+ 
+
+mat-card-title{
+    margin-bottom:7%;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+
+ button{
+    display:block;
+    width:75%;
+    margin: auto;
+    padding:8px;
+    font-weight:bold;
+    font-size:medium;
+    margin-top:2%;
+    color : white;
+    background-color:#303F9F;
+    border-style: solid;
+ }
+
+  button:not([disabled]):hover {
+    background-color:  white;
+    color:#303F9F;
+  }
+  
+.lbutton{
+    color:white;
+    font-weight: bold;
+    font-size:12px;
+    width:10%;
+    display:inline;
+}
+
