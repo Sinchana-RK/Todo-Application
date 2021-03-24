@@ -50,20 +50,14 @@ mat-card-title{
     font-size:medium;
     margin-top:2%;
     color : white;
-    background-color:#303F9F;
+    background-color:transparent;
     border-style: solid;
  }
 
   button:not([disabled]):hover {
     background-color:  white;
-    color:#303F9F;
+    color:#1c437e;
   }
   
-.lbutton{
-    color:white;
-    font-weight: bold;
-    font-size:12px;
-    width:10%;
-    display:inline;
-}
+
 
