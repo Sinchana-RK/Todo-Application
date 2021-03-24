@@ -1,0 +1,65 @@
+
+.signin-page{
+    top:10px;
+    margin:0;
+    padding:5px;
+   width:100%;
+  height:100%;
+   background-color: #1c437e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+    display:block;
+    overflow:hidden;
+
+}
+
+mat-card {
+    width: 40%;
+    margin: 10% auto;
+    border-radius:8px;
+    height: 400px;
+    background-color: transparent;
+ }
+
+ mat-form-field{
+     display:block;
+     width:70%;
+     margin:auto;
+     border:white;
+ }
+ mat-label{
+     color:white;
+ }
+ mat-form-field-appearance-outline,mat-form-field-outline {
+    color: white;
+  }
+  input.mat-input-element {
+    color: white;
+  }
+mat-checkbox{
+    color:white;
+    margin-left:15%;
+}
+mat-card-title{
+    margin-bottom:9%;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+::placeholder{
+    color:white;
+    opacity:1;
+}
+
+ button{
+    display:block;
+    width:25%;
+    margin: auto;
+    padding:8px;
+    color:#303F9F;
+    font-weight:bold;
+    font-size:medium;
+    background-color: white;
+    margin-top:7%;
+ }
