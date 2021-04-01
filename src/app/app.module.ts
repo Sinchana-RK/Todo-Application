@@ -12,6 +12,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 
+import {MatMenuModule} from '@angular/material/menu';
+
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import {MatCardModule} from '@angular/material/card';
     MatInputModule,
     MatButtonModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    MatMenuModule
+    
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]

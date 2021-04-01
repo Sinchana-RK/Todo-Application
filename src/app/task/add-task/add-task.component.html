@@ -13,7 +13,27 @@
     <div class="body">
        <div class="dots">
         <p>My Tasks</p>
-        <i class="fad fa-ellipsis-v"></i>
+       <!---<i class="fad fa-ellipsis-v"></i> -->
+       <button mat-icon-button [matMenuTriggerFor]="menu">
+       <mat-icon>more_vert</mat-icon> 
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <span>Delete list</span>
+        </button>
+        <button mat-menu-item disabled>
+          <span>Rename list</span>
+        </button>
+        <button mat-menu-item>
+          <span>Sort by date</span>
+        </button>
+        <button mat-menu-item>
+            <span>Share list</span>
+          </button>
+          <button mat-menu-item>
+            <span>Delete all completed tasks</span>
+          </button>
+      </mat-menu>
        </div>
         <div class="plus">
             <i style="font-size:30px; margin-right:6%; "class="fas fa-plus-circle"></i>
@@ -24,4 +44,7 @@
     <div class="bottom-right">
     <i style="font-size:70px"class="fas fa-plus-circle"></i>
     </div>
+
+   
 </body>
+
