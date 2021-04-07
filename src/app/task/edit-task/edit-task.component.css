@@ -1,0 +1,12 @@
+.plus{
+    margin-top:9%;
+    display:flex;
+    justify-content:stretch;
+    text-align:middle;
+    margin-left:1%;
+   }
+
+   p.plus{
+       margin-left:9%;
+       font-weight: bold;
+   }

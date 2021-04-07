@@ -28,8 +28,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatButtonModule,
     MatCardModule,
     HttpClientModule,
-    MatMenuModule
-    
+    MatMenuModule,
+  
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]

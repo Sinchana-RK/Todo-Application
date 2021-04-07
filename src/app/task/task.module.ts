@@ -7,11 +7,12 @@ import { TaskRoutingModule } from './task-routing.module';
 
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 
 
 @NgModule({
-  declarations: [AddTaskComponent, TaskDetailsComponent, OperationsComponent],
+  declarations: [AddTaskComponent, TaskDetailsComponent, OperationsComponent, EditTaskComponent],
   imports: [
     CommonModule,
     TaskRoutingModule,
