@@ -10,3 +10,23 @@
        margin-left:9%;
        font-weight: bold;
    }
+
+   .content{
+       color:#1c437e;
+       border: 1px solid black;
+       margin-top:10%;
+       padding:7%;
+    
+   }
+
+ #A{
+     margin-top:7%;
+ }
+
+ #B{
+    margin-top:7%;
+}
+
+#C{
+    padding-top:7%;
+}

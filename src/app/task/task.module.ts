@@ -8,6 +8,11 @@ import { TaskRoutingModule } from './task-routing.module';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import { EditTaskComponent } from './edit-task/edit-task.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 
@@ -17,7 +22,12 @@ import { EditTaskComponent } from './edit-task/edit-task.component';
     CommonModule,
     TaskRoutingModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatCheckboxModule
   ]
 })
 export class TaskModule { }
