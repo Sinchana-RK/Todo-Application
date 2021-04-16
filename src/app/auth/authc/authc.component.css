@@ -1,0 +1,15 @@
+.blue-logo-bg {
+    /* css to apply blue background & image over it */
+    background-color: #1c437e;
+    background-image: url(/assets/images/CB_logo.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 600px;
+    background-blend-mode: hue;
+    height: 100vh; /* what is vh? */
+    width: 100vw; /* what is vw? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

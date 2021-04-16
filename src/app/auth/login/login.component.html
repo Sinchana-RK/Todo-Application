@@ -1,43 +1,31 @@
+<!-- <div class="login-page"> -->
 
-<div class="login-page" >
+  <mat-card>
+    <mat-card-title style="text-align:center;">Log In</mat-card-title>
+    <mat-card-content>
+      <form>
 
-    <mat-card >
-      <mat-card-title style="text-align:center;">Log In</mat-card-title>
-        <mat-card-content>
-          <form>
+        <mat-form-field appearance="outline">
+          <mat-label>Email Address</mat-label>
+          <input matInput placeholder="Enter email">
+        </mat-form-field>
 
-            <mat-form-field  appearance="outline" >
-              <mat-label>Email Address</mat-label>
-              <input matInput placeholder="Enter email" >
-            </mat-form-field>
-          
-            <mat-form-field  appearance="outline">
-              <mat-label>Password</mat-label>
-                <input matInput type="password" placeholder="Enter password" >
-            </mat-form-field>
-            <div class="inline-elements">
-             <mat-checkbox >Remember me</mat-checkbox>
-      
-                <p>Forgot password?</p> 
-                </div>
-      
-                <div>
-                  <button mat-raised type="submit">Log in</button>
-                  </div>
-            
-          </form>
-        </mat-card-content>
-      </mat-card>
-     
-     </div>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" placeholder="Enter password">
+        </mat-form-field>
+        <div class="inline-elements">
+          <mat-checkbox>Remember me</mat-checkbox>
 
-    
-      
-    
-    
-     
-  
+          <p>Forgot password?</p>
+        </div>
 
-    
+        <div>
+          <button mat-raised type="submit">Log in</button>
+        </div>
 
+      </form>
+    </mat-card-content>
+  </mat-card>
 
+<!-- </div> -->

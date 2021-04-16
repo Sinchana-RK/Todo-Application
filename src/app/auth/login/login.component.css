@@ -1,5 +1,5 @@
 
-.login-page{
+/* .login-page{
     top:10px;
     margin:0;
     padding:5px;
@@ -12,13 +12,14 @@
     display:block;
     overflow:hidden;
 
-}
+} */
 
 mat-card {
-    width: 40%;
-    margin: 10% auto;
+    /* width: 40%; */ /*understand 40% of what/which component is being considered here*/
+    width: 30vw;
+    /* margin: 10% auto; */
     border-radius:8px;
-    height: 330px;
+    /* height: 330px; */
     background-color: transparent;
  }
 

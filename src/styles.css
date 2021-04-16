@@ -2,3 +2,6 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }*/
+body.mat-typography {
+    margin: 0px; /* to make use of the whole screen and remove margin given by .mat-typography class*/
+}
